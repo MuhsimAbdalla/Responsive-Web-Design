@@ -13,8 +13,11 @@
 
         <!-- Section for cat photo gallery -->
         <section>
+
             <h2>Cat Photos</h2>
+
             <p>See more <a href="https://freecatphotoapp.com" target="_blank">cat photos </a> in our gallery</a></p>
+
             <a href="https://freecatphotoapp.com" target="_blank">
                 <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back">
             </a>
@@ -63,8 +66,11 @@
             <form action="https://freecatphotoapp.com/submit-cat-photo">
 
                 <!--TODO: add value attributes, matching the id -->
-                <label><input id ="indoor" type="radio" name="indoor-outdoor" value="indoor">Indoor</label>
-                <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor">Outdoor</label>
+                <fieldset>
+                    <legend>Is your cat an indoor or outdoor cat?</legend>
+                    <label><input id ="indoor" type="radio" name="indoor-outdoor" value="indoor">Indoor</label>
+                    <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor">Outdoor</label>
+                </fieldset>
 
                 <label><input type="text" name="catphotourl" placeholder="cat photo ursl"></label>
 
