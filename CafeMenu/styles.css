@@ -35,3 +35,8 @@ hr {
     background-color: brown;
     border-color: brown;
 }
+
+h2 {
+    font-size: 30px;
+    margin-top: 15px;
+}
