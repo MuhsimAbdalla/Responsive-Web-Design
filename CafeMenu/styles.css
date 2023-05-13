@@ -64,3 +64,8 @@ img {
     width: 25%;
     text-align: right;
 }
+
+.bottom-line {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
