@@ -47,3 +47,7 @@ img {
     margin-right: auto;
     margin-top: -25px;
 }
+
+.item p {
+    display: inline-block;
+}
