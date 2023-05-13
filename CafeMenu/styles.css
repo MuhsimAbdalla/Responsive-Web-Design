@@ -82,3 +82,7 @@ a {
 a:hover {
     color: brown;
 }
+
+a:visited {
+    color: black;
+}
