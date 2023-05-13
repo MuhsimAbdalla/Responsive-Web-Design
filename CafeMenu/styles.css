@@ -55,7 +55,7 @@ img {
     margin-bottom: 5px;
 }
 
-.flavor {
+.flavor, .dessert {
     width: 75%;
     text-align: left;
 }
