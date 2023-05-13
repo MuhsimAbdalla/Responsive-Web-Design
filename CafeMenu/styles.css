@@ -52,3 +52,8 @@ img {
     display: inline-block;
     font-size: 18px;
 }
+
+.flavor {
+    width: 75%;
+    text-align: left;
+}
